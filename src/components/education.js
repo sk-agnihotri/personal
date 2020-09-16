@@ -1,12 +1,38 @@
 import React from 'react';
+import '../css/education.css'
 
 const Education = () => {
     return (
-            <div className="Section-about" id="about">
-                <h1>Education</h1>
-                <p className="About__text">I am a Front End Developer having a good understanding of design and layouts. I try to keep myself updated with the latest trends in the web world. I code meaningful markups and web applications.</p>
-                <div className="u-tc">
-                <p className="card strong">I play with Front End Everyday</p>
+            <div>
+                <h1 className='text-white text-center'>Education &darr;</h1>
+                <div className="timeline">
+                <div className="container left">
+                        <div className="content">
+                            <div className="row">
+                                <div className="col-sm"><h2 className='text-crimson'>B. Tech</h2></div>
+                                <div className="col-sm"><h6 className='mb-2'>NIT Warangal</h6><p>2014 - 18</p></div>
+                                <div className="col-sm"><p className='mb-0'>CGPA:</p><h1>7.78</h1></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container right">
+                        <div className="content">
+                            <div className="row">
+                                <div className="col-sm"><h2>Intermediate</h2></div>
+                                <div className="col-sm"><h6 className='mb-2'>Maharshi DBL Inter College</h6><p>2012</p></div>
+                                <div className="col-sm"><p className='mb-0'>Percentage:</p><h1>81.4%</h1></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container left">
+                        <div className="content">
+                            <div className="row">
+                                <div className="col-sm"><h2>High School</h2></div>
+                                <div className="col-sm"><h6 className='mb-2'>Maharshi DBL Inter College</h6><p>2010</p></div>
+                                <div className="col-sm"><p className='mb-0'>Percentage:</p><h1>84.0%</h1></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
