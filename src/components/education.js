@@ -9,7 +9,7 @@ const Education = () => {
                 <div className="container left">
                         <div className="content">
                             <div className="row">
-                                <div className="col-sm"><h2 className='text-crimson'>B. Tech</h2></div>
+                                <div className="col-sm"><h2>B. Tech</h2></div>
                                 <div className="col-sm"><h6 className='mb-2'>NIT Warangal</h6><p>2014 - 18</p></div>
                                 <div className="col-sm"><p className='mb-0'>CGPA:</p><h1>7.78</h1></div>
                             </div>
