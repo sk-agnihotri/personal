@@ -1,0 +1,79 @@
+#name, #role {
+  text-align: center;
+} 
+
+#name .name, #name .one {
+  display: inline;
+}
+
+#role .role, #role .one{
+  display: inline;
+}
+
+.hero {
+  align-content: center;
+  display: inline-grid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  height: 80vh;
+  width: 90vw;
+  top: 0;
+  left: 0;
+}
+
+.name {
+    font-size: 5em; 
+    color: white;
+    font-weight: 600;
+  }
+
+  .one{
+      color: white;
+  }
+
+  .role {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .name span span {
+      position: relative;
+      bottom: 50em;
+      opacity: 0;
+      animation: move-text 0.75s forwards;
+  }
+
+  .role span span {
+    position: relative;
+    bottom: 50em;
+    opacity: 0;
+    animation: move-text 0.5s forwards;
+}
+  
+  @keyframes move-text {
+      0% {
+          bottom: 0em;
+          opacity: 1;
+      }
+
+      25% {
+        opacity: 0.5; 
+        color: lightgrey;
+      }
+      
+      50% {
+          bottom: 0em;
+          opacity: 0.2;
+      }
+  
+      100% {
+          bottom: 0;
+          opacity: 1;
+      }
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    body {
+      transform: scale(1);
+    }
+  }
