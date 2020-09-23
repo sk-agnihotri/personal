@@ -4,7 +4,7 @@ import '../css/education.css'
 const Education = () => {
     return (
             <div>
-                <h1 className='text-white text-center'>Education &darr;</h1>
+                <h1 className='text-white text-center'>Education <i className='fa fa-graduation-cap'></i></h1>
                 <div className="timeline">
                 <div className="container left">
                         <div className="content">

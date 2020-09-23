@@ -1,0 +1,36 @@
+.cont {
+    background-color: chocolate;
+    height: 56vmin;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 50%;
+}
+
+.social-container {
+    padding-top: 15%;
+    margin-left: 30%;
+    height:45vmin;
+    width:45vmin;
+    text-align: center;
+    transform: rotate(45deg);
+}
+.social-container a {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6em;
+    width: 6em;
+    float: left;
+    margin: 2vmin;
+    text-align: center;    
+    border: 1px solid;
+}
+.social-container .github{color:white;border-color:#e3d5d0;}
+.social-container .skype{color:#b100b1 ;border-color:#b100b1;}
+.social-container .linkedin{color:#007fb1;border-color:#007fb1;}
+.social-container .email{color:#aaca62;border-color:#aaca62;}
+
+.social-container a i {
+        transform: rotate(-45deg);
+}

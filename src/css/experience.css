@@ -1,0 +1,32 @@
+.column1 {
+    float: left;
+    width: 10%;
+    height: 30vh;
+    background: url('../Bizacuity-logo.png') no-repeat;
+    background-position: center;
+    background-color: cyan;
+    border-radius: 20%;
+}
+  
+.column2 {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(2,[col-start] 30% [col-end] 70%);
+    width: 89%;
+    height: 30vh;
+    background-color: cornsilk;
+}
+
+.indent {
+    text-indent: 15%;
+    margin-top: 15%;
+}
+.rows {
+    padding: 5vw 10vh;
+}
+  /* Clear floats after the columns */
+  .rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

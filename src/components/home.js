@@ -27,7 +27,7 @@ class Home extends Component {
             <div className="flip-card one">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src={Img} alt="Avatar"/>
+                  <img className='image' src={Img} alt="profile"/>
                 </div>
                 <div className="flip-card-back">
                   <h1>Saumya Kumar Agnihotri</h1>
