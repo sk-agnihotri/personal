@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/navbar'
 import Education from './components/education'
@@ -11,7 +11,7 @@ import Experience from './components/experience'
 class App extends Component{
   render() {return (
     <div className="bg-img">
-          <BrowserRouter>
+          <HashRouter>
             <Navbar />
             <Switch>
             <Route exact path='/' component = {Home} />
@@ -20,7 +20,7 @@ class App extends Component{
             <Route path='/skills' component = {Skills} />
             <Route path='/contact' component = {Contact} />
             </Switch>
-          </BrowserRouter>
+          </HashRouter>
   </div>
   );
 }}
