@@ -5,37 +5,37 @@ import "react-circular-progressbar/dist/styles.css";
 const data = [{
     name: 'HTML',
     value: 77,
-    image: '../img/html5.png',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/html5.jpg?raw=true',
     key: 1
   },
   {
     name: 'JavaScript',
     value: 82,
-    image: 'https://p.kindpng.com/picc/s/171-1718063_javascript-logo-circle-png-png-download-js-logo.png',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/javascript.jpg?raw=true',
     key: 2
   },
   {
     name: 'CSS',
     value: 74,
-    image: 'https://previews.123rf.com/images/blankstock/blankstock1409/blankstock140905837/31711262-css3-sign-icon-cascading-style-sheets-symbol-circle-flat-button-with-shadow-modern-ui-website-naviga.jpg',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/css3.jpg?raw=true',
     key: 3
   },
   {
     name: 'Tableau',
     value: 92,
-    image: 'https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h_400x400.jpg',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/tableau.jpg?raw=true',
     key: 4
   },
   {
     name: 'React JS',
     value: 82,
-    image: 'https://ih1.redbubble.net/image.1045049975.0131/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/react.jpg?raw=true',
     key: 5
   },
   {
     name: 'D3 JS',
     value: 86,
-    image: 'https://bs-uploads.toptal.io/blackfish-uploads/components/skill_page/content/logo_file/logo/195523/d3js-7ccc10c45b36ba40d8fd3006561289df.png',
+    image: 'https://github.com/sk-agnihotri/personal/blob/master/src/img/d3js.jpg?raw=true',
     key: 6
   }
 ];
