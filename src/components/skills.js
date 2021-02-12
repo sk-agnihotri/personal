@@ -1,11 +1,11 @@
 import React from 'react';
-import { CircularProgressbar, buildStyles} from 'react-circular-progressbar';
+import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
 
 const data = [{
     name: 'HTML',
     value: 77,
-    image: 'https://www.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png',
+    image: '../img/html5.png',
     key: 1
   },
   {
@@ -23,7 +23,7 @@ const data = [{
   {
     name: 'Tableau',
     value: 92,
-    image: 'https://img.utdstc.com/icons/tableau-android.png:225',
+    image: 'https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h_400x400.jpg',
     key: 4
   },
   {
